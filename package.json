@@ -1,0 +1,23 @@
+{
+  "name": "movie_hub",
+  "version": "1.0.0",
+  "description": "Movie Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elias-afridi/Movie_hub.git"
+  },
+  "keywords": [
+    "Js",
+    "TailwindCSS"
+  ],
+  "author": "Elias Ali Afridi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elias-afridi/Movie_hub/issues"
+  },
+  "homepage": "https://github.com/elias-afridi/Movie_hub#readme"
+}
