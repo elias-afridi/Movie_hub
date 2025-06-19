@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/elias-afridi/Movie_hub/issues"
   },
-  "homepage": "https://github.com/elias-afridi/Movie_hub#readme"
+  "homepage": "https://github.com/elias-afridi/Movie_hub#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
 }
