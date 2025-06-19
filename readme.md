@@ -1,6 +1,6 @@
-# 🎬 Movie Mania Dashboard
+# 🎬 Movie Hub Dashboard
 
-**Movie Mania** is a frontend dashboard built with HTML, TailwindCSS, and Vanilla JavaScript that dynamically processes and displays movie review data received from an API-like module. It presents essential analytics like total movies, total reviews, average rating, and also includes sorting and grouping features — all based on nested array input.
+**Movie Hub** is a frontend dashboard built with HTML, TailwindCSS, and Vanilla JavaScript that dynamically processes and displays movie review data received from an API-like module. It presents essential analytics like total movies, total reviews, average rating, and also includes sorting and grouping features — all based on nested array input.
 
 ---
 
