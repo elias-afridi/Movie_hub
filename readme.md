@@ -32,3 +32,8 @@
 
 ## 🗃️ Folder Structure
 
+movie-mania/
+├── index.html # Main HTML with layout & Tailwind classes
+├── script.js # Dashboard logic (sorting, grouping, DOM rendering)
+└── data.js # Simulated backend API response
+
