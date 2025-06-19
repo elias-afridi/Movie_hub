@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Hub Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="./index.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 p-6">
+  <main class="max-w-5xl mx-auto">
+    <h1 class="text-4xl font-bold text-center mb-6">🎬 Movie Hub Dashboard</h1>
+
+    <section class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+      <div class="bg-white p-4 rounded-lg shadow text-center">
+        <h2 class="text-xl font-semibold mb-2">Total Movies</h2>
+        <div id="tMoviesId"></div>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow text-center">
+        <h2 class="text-xl font-semibold mb-2">Total Reviews</h2>
+        <div id="tReviewsId"></div>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow text-center">
+        <h2 class="text-xl font-semibold mb-2">Average Rating</h2>
+        <div id="avgRatingId"></div>
+      </div>
+    </section>
+
+    <section class="flex flex-wrap gap-4 mb-6">
+      <button id="sortBtnId" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Sort by Rating</button>
+      <button id="groupById" class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded">Group by Movie</button>
+    </section>
+
+    <section id="movieListId">
+      <ul class="space-y-4"></ul>
+    </section>
+  </main>
+
+</body>
+</html>
