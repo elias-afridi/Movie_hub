@@ -26,6 +26,14 @@ const movieReviewData = [
       "rating": 5,
       "by": "Akram K",
       "on": 1718508775000
+    },
+    {
+      "id": '664acd311387e2ad2e8be48c',
+      "title": "Interstellar",
+      "content": 'What a movie, super scifi',
+      "rating": 6,
+      "by": "Affan new",
+      "on": 1715508775010
     }
   ]
 ];

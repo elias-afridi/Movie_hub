@@ -1,47 +1,34 @@
-মনে করুন আপনি একজন online ভিডিও অ্যাপের মালিক। অ্যাপের নাম মুভি ম্যানিয়া। আপনি আপনার ড্যাশবোর্ডে আপনার অ্যাপের users দের উপরের কিছু তথ্য জানতে চান। ধরে নিন আপনার backend টিম আপনার UI টিমকে এইরকম একটি API response দিয়েছে যেখানে মুভির review এবং rating সম্পর্কে ইনফর্মেশন পাওয়া যায়।
+# 🎬 Movie Mania Dashboard
 
-```js
-const movieReviewData = [
-  [
-    {
-      "id": '663a0a05bfe65e5778eedf58',
-      "title": "The Avengers",
-      "content": 'I am an Avenger fan... Big fan',
-      "rating": 4,
-      "by": "Peter D",
-      "on": 1718508747000
-      
-    },
-      {
-      "id": '663a0a05bfe65e5778eedf58',
-      "title": "The Avengers",
-      "content": 'Great movie! Will watch again.',
-      "rating": 5,
-      "by": "Kiran K",
-      "on": 1718076747000
-    }
-  ],
-  [
-    {
-      "id": '664acd311387e2ad2e8be48b',
-      "title": "Interstellar",
-      "content": 'What a movie, super scifi',
-      "rating": 5,
-      "by": "Akram K",
-      "on": 1718508775000
-    }
-  ]
-];
-```
+**Movie Mania** is a frontend dashboard built with HTML, TailwindCSS, and Vanilla JavaScript that dynamically processes and displays movie review data received from an API-like module. It presents essential analytics like total movies, total reviews, average rating, and also includes sorting and grouping features — all based on nested array input.
 
-Response একটি জাভাস্ক্রিপ্ট Array, যার elements গুলো আবার Array। প্রথম Array টি movie `The Avengers`, এবং দ্বিতীয় Array টি movie `Interstellar` এর রিভিউ আর rating এর details দেয়।
+---
 
-এইবারে আপনি আপনার UI টিমকে বললেন এই ফিচার গুলো implement করার জন্য
+## 📊 Features
 
-- টোটাল কত মুভি আছে তার একটা সংখ্যা গণনা করতে হবে।
-- সব মুভির গড়(average) rating গণনা করতে হবে।
-- টোটাল কতগুলো রিভিউ পেয়েছে সব মুভি মিলিয়ে তার একটা সংখ্যা গণনা করতে হবে।
-- প্রত্যেকটি মুভির যেই যেই rating পেয়েছে সেই তথ্য গণনা করতে হবে।
-- প্রত্যেকটি মুভির যেই যেই রিভিউ পেয়েছে সেই তথ্য গণনা করতে হবে।
-- সামান্য HTML, TailwindCSS, JavaScript দিয়ে একটি ড্যাশবোর্ড বানাতে হবে যেখানে উপরের সব গণনার output দেখাতে হবে।
-- যদি নুতুন কোন মুভির রিভিউ বা rating এর details backend API response এ এড হয়, সেই ক্ষেত্রে গণনা বা ড্যাশবোর্ডের কোড change করা চলবে না।
+### 📈 Part 1: Analytics
+
+- ✅ **Total Movies** – Counts the number of distinct movies.
+- ✅ **Total Reviews** – Displays how many reviews were posted.
+- ✅ **Average Rating** – Shows the average rating of all movies.
+- ✅ **Live DOM Rendering** – Uses JavaScript to render data on page load.
+- ✅ **Fully Dynamic** – Works even when new data is added to the API (no code change needed).
+
+### 🔄 Part 2: Sorting & Grouping
+
+- 🔃 **Sort by Rating** – Toggle between ascending and descending rating order.
+- 🗂️ **Group by Movie Title** – Groups all reviews under their respective movies.
+- 🕓 **Default Sorting by Date** – Latest reviews are shown first.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **TailwindCSS**
+- **JavaScript (ES2023)**
+
+---
+
+## 🗃️ Folder Structure
+
